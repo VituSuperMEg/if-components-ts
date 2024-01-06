@@ -18,7 +18,7 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why",
-    "deploy": "npm version patch && npm publish --access public"
+    "deploy": "npm version patch && npm publish --access public && git push origin main"
   },
   "peerDependencies": {
     "react": ">=16"
